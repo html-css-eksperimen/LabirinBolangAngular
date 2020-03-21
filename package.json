@@ -1,10 +1,11 @@
 {
   "name": "labirin-bolang",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod",
+    "buildgit": "ng build --prod --base-href /nglabirin-bolang/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -19,6 +20,7 @@
     "@angular/platform-browser": "~9.0.6",
     "@angular/platform-browser-dynamic": "~9.0.6",
     "@angular/router": "~9.0.6",
+    "@types/matter-js": "^0.14.2",
     "classlist.js": "^1.1.20150312",
     "matter-js": "^0.14.2",
     "rxjs": "~6.5.4",
